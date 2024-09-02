@@ -10,5 +10,3 @@ echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts
 # Add or update the facebook.com entry
 sudo sed -i '/facebook.com/s/^/#/' /etc/hosts # Comment out any existing facebook.com entry
 echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts
-
-echo "Configuration complete. /etc/hosts has been updated."
